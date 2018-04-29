@@ -9,6 +9,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/angular/debounce.md",
+          "name": "debounce.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/angular/http-interceptor.md",
           "name": "http-interceptor.md",
           "type": "file"
