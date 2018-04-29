@@ -33,3 +33,5 @@ Array.from(document.querySelectorAll('[data-issue-key]')).reduce((str, ele) => {
   return `${str} \n${ele.getAttribute('data-issue-key')} - ${spanTags} - ${ele.querySelector('.ghx-summary').innerHTML}`
 }, '')
 ```
+
+Did some change
