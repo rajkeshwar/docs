@@ -16,23 +16,6 @@
       ]
     },
     {
-      "path": "./docs/dom",
-      "name": "dom",
-      "type": "folder",
-      "children": [
-        {
-          "path": "./docs/dom/dom-handler.md",
-          "name": "dom-handler.md",
-          "type": "file"
-        },
-        {
-          "path": "./docs/dom/dom-operations.md",
-          "name": "dom-operations.md",
-          "type": "file"
-        }
-      ]
-    },
-    {
       "path": "./docs/file-1.md",
       "name": "file-1.md",
       "type": "file"
