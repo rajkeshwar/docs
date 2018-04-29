@@ -12,7 +12,7 @@ var SOURCE_DIR = './src/app/docs';
 var TARGET_FILE_PATH = './src/assets/data/tree-view.json';
 var CODE_SNIPPETS_PATH = './src/app/code-snippets.ts';
 
-fs.writeFile('helloworld.txt', 'Hello World!', (err) => {
+fs.writeFile(CODE_SNIPPETS_PATH, '', (err) => {
     if (err) return console.log(err);
     console.log('Cleaning up before writing to file...'); 
 });

@@ -1,4 +1,3 @@
-
 declare var require:any;
 export const CODE_SNIPPETS={
 "./docs/file-1.md":require('./docs/file-1.md'),

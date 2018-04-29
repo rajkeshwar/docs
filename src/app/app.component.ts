@@ -34,7 +34,10 @@ export class AppComponent {
     
     // Showing the firts doc on page load
     this.snippets = CODE_SNIPPETS[Object.keys(CODE_SNIPPETS)[0]];
-    setTimeout(_ => this.runPrettyPrint(), 10);
+    setTimeout(_ => {
+      this.runPrettyPrint();
+      document.querySelector('[ng2v-folder]').setAttribute('aria-expanded', 'true');
+    }, 10);
 
     this.broadcaster.on('select')
       .subscribe((item: any) => {
