@@ -14,10 +14,10 @@ before_script:
 
 script:
   - node md-treeview.js
-  - npm run build:prod"
+  - npm run build:prod
 
 after_success:
-  - ngh --repo=https://GH_TOKEN@github.com/rajkeshwar/docs.git
+  - ngh --no-silent --repo=https://GH_TOKEN@github.com/rajkeshwar/docs.git
 
 notifications:
   email:
