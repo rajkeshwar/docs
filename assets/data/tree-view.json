@@ -34,6 +34,18 @@
           "type": "file"
         }
       ]
+    },
+    {
+      "path": "./docs/misc",
+      "name": "misc",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/misc/jira-issue-filter.md",
+          "name": "jira-issue-filter.md",
+          "type": "file"
+        }
+      ]
     }
   ]
 }
