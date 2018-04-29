@@ -29,6 +29,11 @@
           "path": "./docs/dom/dom-operations.md",
           "name": "dom-operations.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/dom/dom-utils.md",
+          "name": "dom-utils.md",
+          "type": "file"
         }
       ]
     },
@@ -82,6 +87,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/misc/corporate-proxy.md",
+          "name": "corporate-proxy.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/git-commands.md",
           "name": "git-commands.md",
           "type": "file"
@@ -94,6 +104,18 @@
         {
           "path": "./docs/misc/jira-issue-filter.md",
           "name": "jira-issue-filter.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./docs/scss",
+      "name": "scss",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/scss/box-shadow.md",
+          "name": "box-shadow.md",
           "type": "file"
         }
       ]
