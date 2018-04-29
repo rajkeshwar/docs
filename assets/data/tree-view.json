@@ -4,6 +4,30 @@
   "type": "folder",
   "children": [
     {
+      "path": "./docs/angular",
+      "name": "angular",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/angular/http-interceptor.md",
+          "name": "http-interceptor.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./docs/dom",
+      "name": "dom",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/dom/dom-operations.md",
+          "name": "dom-operations.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/file-1.md",
       "name": "file-1.md",
       "type": "file"
@@ -40,6 +64,11 @@
       "name": "misc",
       "type": "folder",
       "children": [
+        {
+          "path": "./docs/misc/git-commands.md",
+          "name": "git-commands.md",
+          "type": "file"
+        },
         {
           "path": "./docs/misc/jekyll.md",
           "name": "jekyll.md",
