@@ -489,7 +489,9 @@ module.exports = {
         }
     }
     }),
-    new BaseHrefWebpackPlugin({}),
+    new BaseHrefWebpackPlugin({
+      baseHref: '/docs/'
+    }),
     new CommonsChunkPlugin({
       "name": [
         "inline"
