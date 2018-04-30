@@ -114,6 +114,11 @@
           "type": "file"
         }
       ]
+    },
+    {
+      "path": "./docs/venkat.md",
+      "name": "venkat.md",
+      "type": "file"
     }
   ]
 }
