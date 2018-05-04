@@ -104,6 +104,18 @@
       ]
     },
     {
+      "path": "./docs/regex",
+      "name": "regex",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/regex/camelcase.md",
+          "name": "camelcase.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/scss",
       "name": "scss",
       "type": "folder",
