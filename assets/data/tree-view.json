@@ -44,6 +44,11 @@
           "path": "./docs/dom/scroll-table-column.md",
           "name": "scroll-table-column.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/dom/scrollable-sidebar.md",
+          "name": "scrollable-sidebar.md",
+          "type": "file"
         }
       ]
     },
