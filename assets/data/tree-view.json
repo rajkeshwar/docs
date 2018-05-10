@@ -39,6 +39,11 @@
           "path": "./docs/dom/dom-utils.md",
           "name": "dom-utils.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/dom/scroll-table-column.md",
+          "name": "scroll-table-column.md",
+          "type": "file"
         }
       ]
     },
