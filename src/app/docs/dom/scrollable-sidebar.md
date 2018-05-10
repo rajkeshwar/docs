@@ -35,7 +35,7 @@ function mousemoveFn(e) {
     let main = document.querySelector('#main');
     let x = e.pageX - sidebar.getBoundingClientRect().left;
     
-    if (x > min && x < max && e.pageX < ($(window).width() - mainmin)) {  
+    if (x > min && x < max && e.pageX < (window.outerWidth - mainmin)) {  
       sidebar.style.width = `${x}px`;
       main.style.marginLeft = x;
     }
