@@ -9,6 +9,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/angular/akhram.md",
+          "name": "akhram.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/angular/debounce.md",
           "name": "debounce.md",
           "type": "file"
