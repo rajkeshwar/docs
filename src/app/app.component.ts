@@ -39,6 +39,9 @@ export class AppComponent {
     this.snippets = CODE_SNIPPETS[Object.keys(CODE_SNIPPETS)[0]];
     setTimeout(_ =>  this.runPrettyPrint(), 10);
 
+    const targetPage = window.location.href.split('?p=').pop();
+    console.log('page: ', targetPage);
+
     this.broadcaster.on('select')
       .subscribe((item: any) => {
         if (item.type === 'file') {

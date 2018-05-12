@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: #fafafa;
@@ -156,6 +161,7 @@ code {
     border-radius: 2px;
     text-align: left;
     -webkit-font-smoothing: antialiased;
+    display: inline-block;
   }
   .file-icon::before {
     display: block;
