@@ -146,6 +146,11 @@
       "path": "./docs/venkat.md",
       "name": "venkat.md",
       "type": "file"
+    },
+    {
+      "path": "./docs/vijay.md",
+      "name": "vijay.md",
+      "type": "file"
     }
   ]
 }
