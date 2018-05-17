@@ -58,6 +58,18 @@
       ]
     },
     {
+      "path": "./docs/ds",
+      "name": "ds",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/ds/linked-list.md",
+          "name": "linked-list.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/file-3.md",
       "name": "file-3.md",
       "type": "file"
