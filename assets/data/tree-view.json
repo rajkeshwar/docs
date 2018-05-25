@@ -14,6 +14,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/angular/broadcaster.md",
+          "name": "broadcaster.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/angular/debounce.md",
           "name": "debounce.md",
           "type": "file"
