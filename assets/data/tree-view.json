@@ -9,11 +9,6 @@
       "type": "folder",
       "children": [
         {
-          "path": "./docs/angular/akhram.md",
-          "name": "akhram.md",
-          "type": "file"
-        },
-        {
           "path": "./docs/angular/broadcaster.md",
           "name": "broadcaster.md",
           "type": "file"
