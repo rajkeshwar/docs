@@ -1,7 +1,7 @@
 
 1. Finding if childOf of a DOM
+
 ```ts
-// common constants
 const hasClass = (el, className) => new RegExp(className).test(el.className)
 
 const isChildOf = (el, className) => {
@@ -16,6 +16,7 @@ const isChildOf = (el, className) => {
 ```
 
 2. Finding max-zindex
+
 ```ts
 findMaxZIndex() {
      let maxZIndex = 0;
@@ -29,4 +30,5 @@ findMaxZIndex() {
 
      return maxZIndex;
  }
+ 
  ```
