@@ -15,6 +15,7 @@ const isChildOf = (el, className) => {
 };
 ```
 
+
 2. Finding max-zindex
 
 ```ts
@@ -30,5 +31,5 @@ findMaxZIndex() {
 
      return maxZIndex;
  }
- 
  ```
+ 
