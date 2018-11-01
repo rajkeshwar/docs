@@ -22,4 +22,4 @@ export { RatingModule } from '@ng-components/ng-rating/index';
 
 data.split(/\n/).filter(it => it).map(it => it.replace(/^.*{|}.*$/g, '')).map(it => it.replace(/^\s+|\s+$/g, ''))
 
-```ts
+```
