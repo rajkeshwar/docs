@@ -31,6 +31,63 @@
       "type": "file"
     },
     {
+      "path": "./docs/css3-components",
+      "name": "css3-components",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/css3-components/arrow.md",
+          "name": "arrow.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/box-shadow.md",
+          "name": "box-shadow.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/checkbox.md",
+          "name": "checkbox.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/mat-box-shadow.md",
+          "name": "mat-box-shadow.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/modal.md",
+          "name": "modal.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/range-selector.md",
+          "name": "range-selector.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/responsive-menu.md",
+          "name": "responsive-menu.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/step-progress.md",
+          "name": "step-progress.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/toggle-switch.md",
+          "name": "toggle-switch.md",
+          "type": "file"
+        },
+        {
+          "path": "./docs/css3-components/vertical-notification-bar.md",
+          "name": "vertical-notification-bar.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/dom",
       "name": "dom",
       "type": "folder",
