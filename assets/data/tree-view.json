@@ -26,6 +26,11 @@
       ]
     },
     {
+      "path": "./docs/class.md",
+      "name": "class.md",
+      "type": "file"
+    },
+    {
       "path": "./docs/dom",
       "name": "dom",
       "type": "folder",
@@ -157,11 +162,6 @@
     {
       "path": "./docs/venkat.md",
       "name": "venkat.md",
-      "type": "file"
-    },
-    {
-      "path": "./docs/vijay.md",
-      "name": "vijay.md",
       "type": "file"
     }
   ]
