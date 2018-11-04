@@ -1,6 +1,5 @@
 
-import { Component, OnInit, Input, Directive, HostListener, NgModule, Output } from '@angular/core';
-import { Http } from '@angular/http';
+import { Component, Input, Directive, HostListener, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Broadcaster } from './broadcaster';
 
@@ -15,8 +14,10 @@ import { Broadcaster } from './broadcaster';
   `
 })
 export class Ng2vTreeComponent {
+
   @Input('data') items: Array<Object>;
   @Input('children') children: string;
+  
   public fileType(item) {
     return item.type === 'file' ? item.path.split(/\./).pop() : '';
   }
@@ -24,27 +25,27 @@ export class Ng2vTreeComponent {
 
 @Directive({
   selector: '[ng2v-folder]',
-  host: {'[attr.aria-expanded]':'isExpanded'},
-})  
+  host: { '[attr.aria-expanded]': 'isExpanded' },
+})
 export class Ng2vFileHeader {
 
-  public isExpanded:boolean = false;
-  constructor(private broadcaster: Broadcaster) {}
+  public isExpanded: boolean = false;
+  constructor(private broadcaster: Broadcaster) { }
 
-  @Input() item:any;
-  
+  @Input() item: any;
+
   @HostListener('click', ['$event'])
-  folderClick( evt ) {
+  folderClick(evt) {
     this.isExpanded = !this.isExpanded;
     this.broadcaster.broadcast('select', this.item);
-    evt.stopPropagation();    
+    evt.stopPropagation();
   }
 }
 
 @NgModule({
-    imports:[CommonModule],
-    declarations: [Ng2vTreeComponent, Ng2vFileHeader],
-    exports: [Ng2vTreeComponent, Ng2vFileHeader],
-    providers: [Broadcaster]
+  imports: [CommonModule],
+  declarations: [Ng2vTreeComponent, Ng2vFileHeader],
+  exports: [Ng2vTreeComponent, Ng2vFileHeader],
+  providers: [Broadcaster]
 })
-export class Ng2vTreeModule {}
+export class Ng2vTreeModule { }

@@ -1,0 +1,45 @@
+<header>
+  <div class="navbar">
+    <div class="brand">Docs</div>
+    <div class="folder-path">
+      <ul class="fl-path">
+        <li class="fl-path__item" *ngFor="let bread of breadcrumbs;let i=index">
+          <svg x="0px" y="0px" width="24px" *ngIf="i!==0" height="24px" viewBox="0 0 24 24" focusable="false" fill="#000000">
+            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path>
+          </svg>{{bread}}
+        </li>
+      </ul>
+    </div>
+    <div class="hamburger"></div>
+  </div>
+</header>
+<div class="docs-container">
+  <div class="docs-wpr">
+    <div class="docs-sidenav">
+      <div class="source-tree">
+        <ul ng2v-tree class="ng2v-tree-content"
+            [data]="treeJson" 
+            [children]="'children'">
+        </ul>
+      </div>
+    </div>
+    <div class="docs-content">
+      <div class="markdown" #markdown [innerHTML]="snippets|markdown"></div>  
+    </div>
+   <div class="docs-mobile">
+      <div class="docs-mobile__device"> 
+       <!-- <div class="doc-button-group">
+          <span class="doc-button" [class.doc-button--active]="activeDevice==='ios'" (click)="activate('ios')">
+            <p class="doc-button--label">iOS</p>
+          </span>
+          <span class="doc-button" [class.doc-button--active]="activeDevice==='android'" (click)="activate('android')">
+            <p class="doc-button--label">Android</p>
+          </span>
+        </div> -->
+       <!-- <div id="anchor-container" [attr.style]="getStyle()">
+          <img id="anchor-image" [attr.src]="demoUrl">
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>

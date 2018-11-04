@@ -1,6 +1,6 @@
 declare var require:any;
 export const CODE_SNIPPETS={
-"./docs/angular/akhram.md":require('./docs/angular/akhram.md'),
+"./docs/angular/broadcaster.md":require('./docs/angular/broadcaster.md'),
 "./docs/angular/debounce.md":require('./docs/angular/debounce.md'),
 "./docs/angular/http-interceptor.md":require('./docs/angular/http-interceptor.md'),
 "./docs/dom/dom-handler.md":require('./docs/dom/dom-handler.md'),
@@ -8,6 +8,7 @@ export const CODE_SNIPPETS={
 "./docs/dom/dom-utils.md":require('./docs/dom/dom-utils.md'),
 "./docs/dom/scroll-table-column.md":require('./docs/dom/scroll-table-column.md'),
 "./docs/dom/scrollable-sidebar.md":require('./docs/dom/scrollable-sidebar.md'),
+"./docs/ds/linked-list.md":require('./docs/ds/linked-list.md'),
 "./docs/file-3.md":require('./docs/file-3.md'),
 "./docs/folder-1/file-1.1.md":require('./docs/folder-1/file-1.1.md'),
 "./docs/folder-1/file-1.2.md":require('./docs/folder-1/file-1.2.md'),
@@ -19,4 +20,5 @@ export const CODE_SNIPPETS={
 "./docs/regex/camelcase.md":require('./docs/regex/camelcase.md'),
 "./docs/scss/box-shadow.md":require('./docs/scss/box-shadow.md'),
 "./docs/venkat.md":require('./docs/venkat.md'),
+"./docs/vijay.md":require('./docs/vijay.md'),
 }

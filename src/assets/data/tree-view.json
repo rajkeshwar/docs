@@ -9,8 +9,8 @@
       "type": "folder",
       "children": [
         {
-          "path": "./docs/angular/akhram.md",
-          "name": "akhram.md",
+          "path": "./docs/angular/broadcaster.md",
+          "name": "broadcaster.md",
           "type": "file"
         },
         {
@@ -53,6 +53,18 @@
         {
           "path": "./docs/dom/scrollable-sidebar.md",
           "name": "scrollable-sidebar.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "path": "./docs/ds",
+      "name": "ds",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/ds/linked-list.md",
+          "name": "linked-list.md",
           "type": "file"
         }
       ]
@@ -145,6 +157,11 @@
     {
       "path": "./docs/venkat.md",
       "name": "venkat.md",
+      "type": "file"
+    },
+    {
+      "path": "./docs/vijay.md",
+      "name": "vijay.md",
       "type": "file"
     }
   ]
