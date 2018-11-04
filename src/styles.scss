@@ -305,8 +305,11 @@ code {
   
   .markdown img {
     display: block;
-    margin-bottom: 100px;
     height: 100vh;
+
+    &[alt="Arrow"] {
+      height: 250px;
+    }
   }
   
   
