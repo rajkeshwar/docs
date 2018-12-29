@@ -205,6 +205,18 @@
       ]
     },
     {
+      "path": "./docs/php",
+      "name": "php",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/php/composer.md",
+          "name": "composer.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/regex",
       "name": "regex",
       "type": "folder",
