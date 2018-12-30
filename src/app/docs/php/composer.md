@@ -47,3 +47,7 @@ DocumentRoot “/Users/rajkeshwar/RAJ_WORKS/php”
 ErrorLog “logs/dev.local-error_log”
 </VirtualHost>
 ```
+
+
+https://coolestguidesontheplanet.com/install-apache-mysql-php-and-phpmyadmin-on-macos-high-sierra-10-13/
+
