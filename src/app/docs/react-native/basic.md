@@ -1,7 +1,7 @@
 
-# https://startreact.com/themes/nativebase-kitchensink/
+### https://startreact.com/themes/nativebase-kitchensink/
 
-# Clone and install packages
+### Clone and install packages
 
 ```
 git clone git@github.com:GeekyAnts/NativeBase-KitchenSink.git
@@ -22,21 +22,21 @@ react-native link react-native-vector-icons
 	*	Make sure you have an `Android emulator` installed and running
 	*	Run `react-native run-android` in your terminal
   
-# Building the Android version
+### Building the Android version
 
-# Run this command to find out Java Path
+### Run this command to find out Java Path
 ```
 /usr/libexec/java_home
 ```
 
-# It will output `/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home`
+### It will output `/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home`
 
-# Command to generate signed APK 
+### Command to generate signed APK 
 ```
 sudo keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-# Qestions to generate Signed APK
+### Qestions to generate Signed APK
 | Question                                                        | Answer      |
 |-----------------------------------------------------------------|-:-:---------|
 | What is your first and last name?                               | RP          |
@@ -47,9 +47,9 @@ sudo keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -k
 | What is the two-letter country code for this unit?              | IN          |
 | Is CN=RP, OU=TS, O=TS, L=KOLKATA, ST=WEST BENGAL, C=IN correct? | Yes         |
 
-# Place the `my-release-key.keystore` file under the `android/app` directory in your project folder.
+### Place the `my-release-key.keystore` file under the `android/app` directory in your project folder.
 
-# Edit the file `android/gradle.properties`, and add the following (replace `*****` with the correct keystore password, alias and key password),
+### Edit the file `android/gradle.properties`, and add the following (replace `*****` with the correct keystore password, alias and key password),
 
 ```
 MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
@@ -58,7 +58,7 @@ MYAPP_RELEASE_STORE_PASSWORD=Welcome@123
 MYAPP_RELEASE_KEY_PASSWORD=Welcome@123
 ```
 
-# Adding signing config to your app's gradle config
+### Adding signing config to your app's gradle config
 
 Edit the file android/app/build.gradle in your project folder, and add the signing config
 
@@ -87,7 +87,7 @@ android {
 ...
 ```
 
-# Generating the release APK
+### Generating the release APK
 
 Simply run the following in a terminal:
 
