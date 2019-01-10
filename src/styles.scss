@@ -362,15 +362,12 @@ code {
         height: 100%;
         background: #1c91ca;
       }
-  }
+      table {
+        border: 1px solid #aaa;
+        border-collapse: collapsed;
 
-.prettyprinted {
-  table {
-    border: 1px solid #aaa;
-    border-collapse: collapsed;
-    
-    td {
-      border: 1px solid #aaa;
-    }
+        td {
+          border: 1px solid #aaa;
+        }
+      }
   }
-}
