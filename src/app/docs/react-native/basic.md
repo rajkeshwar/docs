@@ -98,6 +98,10 @@ $ cd android
 $ ./gradlew assembleRelease
 ```
 
+##### Get the Android build from the location 
+```
+<ProjectFolder>/android/app/build/outputs/apk/release/app-release.apk
+```
 
 
 
