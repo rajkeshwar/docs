@@ -241,6 +241,11 @@
       ]
     },
     {
+      "path": "./docs/rohit.md",
+      "name": "rohit.md",
+      "type": "file"
+    },
+    {
       "path": "./docs/scss",
       "name": "scss",
       "type": "folder",
