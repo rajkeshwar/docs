@@ -1,6 +1,6 @@
 ### Queue in JavaScript
 
-````
+```js
 class Queue {
     constructor(...items) {
         this.reverse = false;
