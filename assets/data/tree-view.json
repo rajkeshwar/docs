@@ -125,6 +125,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/ds/hash-table.md",
+          "name": "hash-table.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/ds/linked-list.md",
           "name": "linked-list.md",
           "type": "file"
