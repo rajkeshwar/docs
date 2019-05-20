@@ -130,6 +130,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/ds/queue.md",
+          "name": "queue.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/ds/stack.md",
           "name": "stack.md",
           "type": "file"
