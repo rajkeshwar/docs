@@ -159,6 +159,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/linux/gh-pages.md",
+          "name": "gh-pages.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/linux/ssh.md",
           "name": "ssh.md",
           "type": "file"
@@ -215,6 +220,11 @@
           "type": "file"
         }
       ]
+    },
+    {
+      "path": "./docs/rajkeshwar.md",
+      "name": "rajkeshwar.md",
+      "type": "file"
     },
     {
       "path": "./docs/react-native",

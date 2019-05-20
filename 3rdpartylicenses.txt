@@ -1,4 +1,4 @@
-core-js@2.6.3
+core-js@2.6.6
 MIT
 Copyright (c) 2014-2019 Denis Pushkarev
 
@@ -125,7 +125,7 @@ MIT
 MIT
 MIT
 
-prismjs@1.15.0
+prismjs@1.16.0
 MIT
 MIT LICENSE
 
