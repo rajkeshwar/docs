@@ -128,6 +128,11 @@
           "path": "./docs/ds/linked-list.md",
           "name": "linked-list.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/ds/stack.md",
+          "name": "stack.md",
+          "type": "file"
         }
       ]
     },
