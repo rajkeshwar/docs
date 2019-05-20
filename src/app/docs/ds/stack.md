@@ -1,6 +1,6 @@
 ### Stack implementation in JavaScript 
 
-````
+```js
 class Stack {
 	constructor(...items) {
 		this.reverse = false;
@@ -17,3 +17,4 @@ class Stack {
 		return this.reverse ? this.stack.shift() : this.stack.pop();
 	}
 }
+```
