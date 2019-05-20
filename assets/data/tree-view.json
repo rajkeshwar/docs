@@ -138,6 +138,11 @@
           "path": "./docs/ds/stack.md",
           "name": "stack.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/ds/tree.md",
+          "name": "tree.md",
+          "type": "file"
         }
       ]
     },
