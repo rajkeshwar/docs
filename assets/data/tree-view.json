@@ -51,6 +51,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/css3-components/css-fonts.md",
+          "name": "css-fonts.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/css3-components/mat-box-shadow.md",
           "name": "mat-box-shadow.md",
           "type": "file"
