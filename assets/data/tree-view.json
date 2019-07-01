@@ -196,6 +196,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/misc/copy-clipboard.md",
+          "name": "copy-clipboard.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/corporate-proxy.md",
           "name": "corporate-proxy.md",
           "type": "file"
