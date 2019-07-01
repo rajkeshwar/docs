@@ -201,6 +201,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/misc/custom-element.md",
+          "name": "custom-element.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/git-commands.md",
           "name": "git-commands.md",
           "type": "file"
