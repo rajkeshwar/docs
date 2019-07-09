@@ -100,3 +100,8 @@ git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 ```
 
 `git push origin master -f`
+
+21) Deploy gh-pages branch
+
+https://github.com/kadirahq/mantra/blob/master/resources/push-to-gh-pages.sh
+
