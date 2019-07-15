@@ -216,6 +216,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/misc/fetch.md",
+          "name": "fetch.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/git-commands.md",
           "name": "git-commands.md",
           "type": "file"
