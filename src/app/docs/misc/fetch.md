@@ -32,3 +32,4 @@ fetch("https://jsonplaceholder.typicode.com/photos").then((response) => {
 
   return new Response(stream, { headers: { "Content-Type": "text/html" } });
 });
+```
