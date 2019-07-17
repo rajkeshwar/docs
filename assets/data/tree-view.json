@@ -179,6 +179,11 @@
       ]
     },
     {
+      "path": "./docs/links.md",
+      "name": "links.md",
+      "type": "file"
+    },
+    {
       "path": "./docs/linux",
       "name": "linux",
       "type": "folder",
