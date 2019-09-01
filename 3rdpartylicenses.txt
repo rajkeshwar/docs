@@ -125,7 +125,7 @@ MIT
 MIT
 MIT
 
-prismjs@1.16.0
+prismjs@1.17.1
 MIT
 MIT LICENSE
 
