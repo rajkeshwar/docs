@@ -321,6 +321,11 @@
       "path": "./docs/venkat.md",
       "name": "venkat.md",
       "type": "file"
+    },
+    {
+      "path": "./docs/wc.md",
+      "name": "wc.md",
+      "type": "file"
     }
   ]
 }
