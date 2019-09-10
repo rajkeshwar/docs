@@ -22,4 +22,7 @@ const importAllWebComponents = r => r.keys().forEach(key => {
     window.customElements.define(cmpClazz.is, cmpClazz);
   }
 });
+
+importAllWebComponents(context);
+
 ```
