@@ -328,6 +328,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/wc/media-query.md",
+          "name": "media-query.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/wc/router.md",
           "name": "router.md",
           "type": "file"
