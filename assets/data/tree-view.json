@@ -323,6 +323,18 @@
       "type": "file"
     },
     {
+      "path": "./docs/wc",
+      "name": "wc",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/wc/router.md",
+          "name": "router.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/wc.md",
       "name": "wc.md",
       "type": "file"
