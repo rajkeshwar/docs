@@ -244,6 +244,18 @@
           "path": "./docs/misc/jira-issue-filter.md",
           "name": "jira-issue-filter.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/misc/text",
+          "name": "text",
+          "type": "folder",
+          "children": [
+            {
+              "path": "./docs/misc/text/placeholder.md",
+              "name": "placeholder.md",
+              "type": "file"
+            }
+          ]
         }
       ]
     },
