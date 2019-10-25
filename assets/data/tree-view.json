@@ -211,6 +211,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/misc/animation.md",
+          "name": "animation.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/copy-clipboard.md",
           "name": "copy-clipboard.md",
           "type": "file"
