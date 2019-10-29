@@ -261,6 +261,11 @@
               "type": "file"
             }
           ]
+        },
+        {
+          "path": "./docs/misc/version-bump.md",
+          "name": "version-bump.md",
+          "type": "file"
         }
       ]
     },
