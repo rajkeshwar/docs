@@ -2,13 +2,6 @@ Create a version bump in npm version
 ```sh 
 #!/usr/bin/env node
 
-/*
- * @Author: rajkeshwar.prasad.extern@ing.de 
- * @Date: 2019-08-28 15:10:07 
- * @Last Modified by: rajkeshwar.prasad.extern@ing.de
- * @Last Modified time: 2019-08-28 15:46:14
- */
-
 const shell = require('shelljs');
 const { version } = require('../package.json');
 
