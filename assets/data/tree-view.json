@@ -19,6 +19,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/angular/encapsulation.md",
+          "name": "encapsulation.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/angular/http-interceptor.md",
           "name": "http-interceptor.md",
           "type": "file"
