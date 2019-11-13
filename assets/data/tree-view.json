@@ -189,6 +189,11 @@
       ]
     },
     {
+      "path": "./docs/git.md",
+      "name": "git.md",
+      "type": "file"
+    },
+    {
       "path": "./docs/links.md",
       "name": "links.md",
       "type": "file"
