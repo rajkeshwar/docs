@@ -32,3 +32,8 @@ Simplified version by date
 ```sh
 git tag -l --format='%(refname)   %(taggerdate)'
 ```
+
+Symbol.iterator
+```
+https://medium.com/front-end-weekly/thank-u-symbol-iterator-next-aef9f09ff78
+```
