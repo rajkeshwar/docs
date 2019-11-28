@@ -216,6 +216,18 @@
       ]
     },
     {
+      "path": "./docs/lit-html",
+      "name": "lit-html",
+      "type": "folder",
+      "children": [
+        {
+          "path": "./docs/lit-html/webpack.config.md",
+          "name": "webpack.config.md",
+          "type": "file"
+        }
+      ]
+    },
+    {
       "path": "./docs/misc",
       "name": "misc",
       "type": "folder",
