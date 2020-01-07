@@ -1,4 +1,4 @@
-```js
+```json
 {
 	"Lit_Element": {
 		"prefix": "lit-element",
@@ -39,3 +39,4 @@
     }
     
     ```
+    
