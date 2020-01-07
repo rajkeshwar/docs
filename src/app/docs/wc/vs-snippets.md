@@ -1,3 +1,5 @@
+Vscode snippets for LitElement
+
 ```json
 {
 	"Lit_Element": {
@@ -36,7 +38,4 @@
 			"}",
 			""
 		]
-    }
-    
-    ```
-    
+  }
