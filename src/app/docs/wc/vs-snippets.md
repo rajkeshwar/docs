@@ -1,4 +1,5 @@
 ```js
+{
 	"Lit_Element": {
 		"prefix": "lit-element",
 		"body": [
@@ -35,4 +36,6 @@
 			"}",
 			""
 		]
+    }
+    
     ```
