@@ -385,6 +385,11 @@
           "path": "./docs/wc/router.md",
           "name": "router.md",
           "type": "file"
+        },
+        {
+          "path": "./docs/wc/vs-snippets.md",
+          "name": "vs-snippets.md",
+          "type": "file"
         }
       ]
     },
