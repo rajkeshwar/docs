@@ -108,6 +108,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/dom/angular-positioning.md",
+          "name": "angular-positioning.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/dom/debounce-throttle.md",
           "name": "debounce-throttle.md",
           "type": "file"
