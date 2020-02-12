@@ -108,6 +108,11 @@
       "type": "folder",
       "children": [
         {
+          "path": "./docs/dom/debounce-throttle.md",
+          "name": "debounce-throttle.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/dom/dom-handler.md",
           "name": "dom-handler.md",
           "type": "file"
