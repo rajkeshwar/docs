@@ -128,6 +128,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/dom/element-positioning.md",
+          "name": "element-positioning.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/dom/scroll-table-column.md",
           "name": "scroll-table-column.md",
           "type": "file"
