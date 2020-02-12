@@ -113,6 +113,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/dom/box-element.md",
+          "name": "box-element.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/dom/debounce-throttle.md",
           "name": "debounce-throttle.md",
           "type": "file"
