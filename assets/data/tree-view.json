@@ -293,6 +293,11 @@
           "type": "file"
         },
         {
+          "path": "./docs/misc/inline-svg.md",
+          "name": "inline-svg.md",
+          "type": "file"
+        },
+        {
           "path": "./docs/misc/jekyll.md",
           "name": "jekyll.md",
           "type": "file"
